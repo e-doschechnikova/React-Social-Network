@@ -2,3 +2,13 @@
   grid-area: n;
   background-color: rgba(220, 151, 223, 0.801);
 }
+
+.item {
+  color: white;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="item">
         <a href="#s">News</a>
       </div>
-      <div>
+      <div className="item">
         <a href="#s">Music</a>
       </div>
       <div className="item">
