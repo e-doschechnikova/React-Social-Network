@@ -1,5 +1,4 @@
 import React from "react";
-import { scryRenderedDOMComponentsWithClass } from "react-dom/test-utils";
 import styles from "./Profile.module.css";
 
 const Profile = () => {

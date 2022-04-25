@@ -8,7 +8,11 @@
   font-size: 25px;
 }
 
+.item.active {
+  color: blueviolet;
+}
+/* 
 a {
   color: white;
   text-decoration: none;
-}
+} */
