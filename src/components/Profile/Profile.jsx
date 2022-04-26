@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Profile.module.css";
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
   return (
@@ -12,19 +13,12 @@ const Profile = () => {
       </div>
       <div>
         ava+ descr
-        <img
+        {/* <img
           src="https://sun9-24.userapi.com/s/v1/ig2/zAZ7I0Md_UB8Tu70q-7yAyM53SSJwDf7Vv_rNlBU9ONFYjbfAVITsf0H_xcHSs3SMspulTfUday_lJmxOrQhv2zC.jpg?size=720x720&quality=95&type=album"
           alt="avatar"
-        ></img>
+        ></img> */}
       </div>
-      <div>
-        my post
-        <div>new post</div>
-      </div>
-      <div className={styles.posts}>
-        <div className={styles.item}>post1</div>
-        <div className="item">post2</div>
-      </div>
+      <MyPosts />
     </div>
   );
 };
