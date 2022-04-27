@@ -11,12 +11,12 @@ const MyPosts = () => {
         <button>Add post</button>
       </div>
       <div className={styles.posts}>
+        <Post message="Hi, how are you?" like={15} />
+        <Post message="It's my first post!" like={3} />
+        {/* <Post />
         <Post />
         <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post /> */}
       </div>
     </div>
   );
