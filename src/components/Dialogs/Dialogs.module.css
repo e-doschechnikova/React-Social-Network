@@ -6,10 +6,15 @@
 .dialogsItems {
   color: #4e5560;
   padding: 10px;
+  cursor: pointer;
 }
 
-.dialogsItems .active {
+.dialogsItems .dialogsItems .active {
   color: #fafafa;
+}
+
+.dialogsItems a:hover {
+  background-color: #acb2bdba;
 }
 
 .dialog {
