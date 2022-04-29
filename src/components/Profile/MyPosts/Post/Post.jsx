@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../Post/Post.module.css";
 
 const Post = (props) => {
+  console.log(props);
   return (
     <div className={styles.item}>
       <img
@@ -10,7 +11,7 @@ const Post = (props) => {
       ></img>
       {props.message}
       <div>
-        <span>{props.like} likes</span>
+        <span>{props.likesCount} likes</span>
       </div>
     </div>
   );
