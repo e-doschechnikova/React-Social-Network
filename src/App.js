@@ -9,6 +9,12 @@ import News from "./components/News/News";
 import Profile from "./components/Profile/Profile";
 import Setting from "./components/Setting/Setting";
 
+let SomeElement = () => <Dialogs />;
+let SomeProfile = () => <Profile />;
+let SomeNews = () => <News />;
+let SomeMusic = () => <Music />;
+let SomeSetting = () => <Setting />;
+
 const App = (props) => {
   return (
     <BrowserRouter>
@@ -17,11 +23,11 @@ const App = (props) => {
         <Navbar />
         <div className="app-wrapper-content">
           <Routes>
-            <Route path="/dialogs/*" element={<Dialogs />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/music" element={<Music />} />
-            <Route path="/setting" element={<Setting />} />
+            <Route path="/dialogs/*" element={SomeElement()} />
+            <Route path="/profile" element={SomeProfile()} />
+            <Route path="/news" element={SomeNews()} />
+            <Route path="/music" element={SomeMusic()} />
+            <Route path="/setting" element={SomeSetting()} />
           </Routes>
         </div>
       </div>
