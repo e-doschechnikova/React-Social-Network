@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import FriendsBar from "../Friends/FriendsBar";
+import FriendsBar from "../FriendsBar/FriendsBar";
 import styles from "./Navbar.module.css";
 
 const activeLink = ({ isActive }) => (isActive ? styles.active : styles.item);

@@ -2,11 +2,7 @@ import React from "react";
 import styles from "./Friends.module.css";
 
 const Friends = (props) => {
-  return (
-    <div className={styles.friends}>
-      <h1>hello</h1>
-    </div>
-  );
+  return <div className={styles.friends}>Friends</div>;
 };
 
 export default Friends;

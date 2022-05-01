@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./FriendsBar.module.css";
-import FriendsList from "./FriendsList";
 
 const FriendsInfo = (props) => {
   return (
     <div>
       <span>{props.name}</span>
-      <img src={props.avatar} />
+      <img style={{width: "40px", height: "40px", borderRadius: "50%" }} src={props.avatar} />
     </div>
   );
 };
