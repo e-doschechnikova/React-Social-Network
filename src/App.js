@@ -10,10 +10,8 @@ import Profile from "./components/Profile/Profile";
 import Setting from "./components/Setting/Setting";
 
 const App = (props) => {
-  let SomeElement = () => (
-    <Dialogs dialogs={props.dialogs} messages={props.messages} />
-  );
-  let SomeProfile = () => <Profile posts={props.posts} />;
+  let SomeElement = () => <Dialogs state={props.state.dialogsPage} />;
+  let SomeProfile = () => <Profile state={props.state.profilePage} />;
   let SomeNews = () => <News />;
   let SomeMusic = () => <Music />;
   let SomeSetting = () => <Setting />;
