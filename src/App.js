@@ -9,13 +9,15 @@ import News from "./components/News/News";
 import Profile from "./components/Profile/Profile";
 import Setting from "./components/Setting/Setting";
 
-let SomeElement = () => <Dialogs />;
-let SomeProfile = () => <Profile />;
-let SomeNews = () => <News />;
-let SomeMusic = () => <Music />;
-let SomeSetting = () => <Setting />;
-
 const App = (props) => {
+  let SomeElement = () => (
+    <Dialogs dialogs={props.dialogs} messages={props.messages} />
+  );
+  let SomeProfile = () => <Profile posts={props.posts} />;
+  let SomeNews = () => <News />;
+  let SomeMusic = () => <Music />;
+  let SomeSetting = () => <Setting />;
+
   return (
     <BrowserRouter>
       <div className="app-wrapper">
