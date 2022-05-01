@@ -9,12 +9,11 @@ let state = {
   },
   dialogsPage: {
     dialogs: [
-      { id: 1, name: "Lama" },
-      { id: 2, name: "Lama Husband" },
-      { id: 3, name: "Lama Mama" },
-      { id: 4, name: "Lama Papa" },
-      { id: 5, name: "Lama Ira" },
-      { id: 6, name: "Lama Egor" },
+      { id: 1, name: "Lama Husband" },
+      { id: 2, name: "Lama Mama" },
+      { id: 3, name: "Lama Papa" },
+      { id: 4, name: "Lama Ira" },
+      { id: 5, name: "Lama Egor" },
     ],
     messages: [
       { id: 1, message: "Hi!" },
@@ -25,6 +24,24 @@ let state = {
       { id: 6, message: "Bye!" },
     ],
   },
+  sitebar: [
+    {
+      id: 1,
+      name: "Lama Husband",
+      avatar:
+        "https://mimigram.ru/wp-content/uploads/2020/07/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%84%D0%BE%D1%82%D0%BE.jpeg",
+    },
+    {
+      id: 3,
+      name: "Lama Papa",
+      avatar: "http://www.rosphoto.com/images/u/articles/1510/7_5.jpg",
+    },
+    {
+      id: 4,
+      name: "Lama Ira",
+      avatar: "http://www.rosphoto.com/images/u/articles/1510/4_8.jpg",
+    },
+  ],
 };
 
 export default state;
