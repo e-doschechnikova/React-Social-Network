@@ -3,9 +3,9 @@ import styles from "./FriendsBar.module.css";
 
 const FriendsInfo = (props) => {
   return (
-    <div>
+    <div className={styles.friendsBlock}>
+      <img className={styles.avatar} alt="avatar" src={props.avatar} />
       <span>{props.name}</span>
-      <img style={{width: "40px", height: "40px", borderRadius: "50%" }} src={props.avatar} />
     </div>
   );
 };

@@ -9,7 +9,7 @@ let state = {
   },
   dialogsPage: {
     dialogs: [
-      { id: 1, name: "Lama Husband" },
+      { id: 1, name: "Lama Iliya" },
       { id: 2, name: "Lama Mama" },
       { id: 3, name: "Lama Papa" },
       { id: 4, name: "Lama Ira" },
@@ -27,19 +27,21 @@ let state = {
   sitebar: [
     {
       id: 1,
-      name: "Lama Husband",
+      name: "Lama Iliya",
       avatar:
-        "https://mimigram.ru/wp-content/uploads/2020/07/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%84%D0%BE%D1%82%D0%BE.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_eTHoHEyBCjd-p5MA-pUIvItDoaKI7e-A5KsHZrC715mj_B3YtZPF2Cw26mpv2Xzijqk&usqp=CAU",
     },
     {
       id: 3,
       name: "Lama Papa",
-      avatar: "http://www.rosphoto.com/images/u/articles/1510/7_5.jpg",
+      avatar:
+        "https://i.pinimg.com/474x/db/0a/15/db0a1537246c4867dd7a312fe23bea12.jpg",
     },
     {
       id: 4,
       name: "Lama Ira",
-      avatar: "http://www.rosphoto.com/images/u/articles/1510/4_8.jpg",
+      avatar:
+        "https://pressa.tv/uploads/posts/2021-10/1633951484_pressa_tv_2.jpg",
     },
   ],
 };
