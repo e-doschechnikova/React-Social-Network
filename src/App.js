@@ -16,7 +16,7 @@ const App = (props) => {
   let SomeNews = () => <News />;
   let SomeMusic = () => <Music />;
   let SomeSetting = () => <Setting />;
-  let SomeFriends = () => <Friends />;
+  let SomeFriends = () => <Friends state={props.state.friends} />;
 
   return (
     <BrowserRouter>
