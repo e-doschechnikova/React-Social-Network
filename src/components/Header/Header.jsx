@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <img
-        src="https://psv4.userapi.com/c236331/u37221233/docs/d20/02514cfda54e/lama-lineyny-kontseptsia-simvol-znak-vektor-znachok-linia-kontur-izobrazhenie_csp69231674-removebg-preview.png?extra=j-OczdFMarzzvFPMhXIRCiigngkQzgsIV2PZ7G36MxCcbxVAfqBMiKJZ3GOZLQR38Wp-6PPFnSgnRtaoEBKL7ak5zF3GmvyJGz5Jy6mNq9AXWl_8wTfK1l6DIz9DdpE7Wcs93lKTq5gU4H7DHQ"
+        src="https://psv4.userapi.com/c236331/u37221233/docs/d20/6e71742d302f/lama-lineyny-kontseptsia-simvol-znak-vektor-znachok-linia-kontur-izobrazhenie_csp69231674-removebg-preview.png?extra=ubRfORbsKawwbiavHZUzu6cAtswZ7zy8XsHajGQ62-sW6tqOf6aw7HLFNejpQOgEDJwckxbCqL_-RHqjD2WLWOaFQ4dr8ioFPyoUxc7cL1Day1uIVCt3ZcfIVK6VCrckPslJGYfFNi8eazuGUS0"
         alt="logo"
       ></img>
     </header>
