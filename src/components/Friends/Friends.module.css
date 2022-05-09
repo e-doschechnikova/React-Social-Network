@@ -5,10 +5,15 @@ h2 {
 .friendsNav {
   font-size: 20px;
   display: flex;
+}
 
+.containerFriends {
+  padding-top: 150px;
+  display: flex;
 }
 
 .avatarAll {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
 }
