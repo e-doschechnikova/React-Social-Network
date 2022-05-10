@@ -13,7 +13,7 @@ import Friends from "./components/Friends/Friends";
 const App = (props) => {
   let SomeElement = () => <Dialogs state={props.state.dialogsPage} />;
   let SomeProfile = () => (
-    <Profile state={props.state.profilePage} addPost={props.addPost} />
+    <Profile profilePage={props.state.profilePage} addPost={props.addPost} />
   );
   let SomeNews = () => <News />;
   let SomeMusic = () => <Music />;
