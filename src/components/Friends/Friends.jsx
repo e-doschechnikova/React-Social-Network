@@ -18,7 +18,7 @@ const Friends = (props) => {
   return (
     <div className={styles.friendsNav}>
       <h2> Friends</h2>
-      <div className={styles.containerFriends}>{friendsElements}</div>
+      <div className={styles.containerFriends}><div className={styles.nameContainer}>{friendsElements}</div></div>
     </div>
   );
 };
