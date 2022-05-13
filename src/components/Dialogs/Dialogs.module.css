@@ -35,3 +35,11 @@
 }
 .message {
 }
+
+.sentMess {
+  color: #d3dae6;
+  background-color: #989aad;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
