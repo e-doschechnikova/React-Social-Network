@@ -21,11 +21,15 @@ const Dialogs = (props) => {
   return (
     <div className={styles.dialogs}>
       <div className={styles.dialogsItems}>{dialogsElements}</div>
-      <div className={styles.messages}>{messagesElements}</div>
-      <div>
-        <textarea ref={newMessageElement}></textarea>
+      <div className={styles.messages}>
+        <div>{messagesElements}</div>
         <div>
-          <button onClick={sentMessage} className={styles.sentMess}>Sent message</button>
+          <textarea ref={newMessageElement}></textarea>
+          <div>
+            <button onClick={sentMessage} className={styles.sentMess}>
+              Sent message
+            </button>
+          </div>
         </div>
       </div>
     </div>
