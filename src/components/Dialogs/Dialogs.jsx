@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Dialogs.module.css";
-import DialogItem from "./DialogItem/DialogItem";
-import Message from "./Message/Message";
+import { DialogItem } from "./DialogItem/DialogItem";
+import { Message } from "./Message/Message";
 
-const Dialogs = (props) => {
+export const Dialogs = (props) => {
   let dialogsElements = props.state.dialogs.map((d) => (
     <DialogItem name={d.name} id={d.id} avatar={d.avatar} />
   ));
@@ -35,5 +35,3 @@ const Dialogs = (props) => {
     </div>
   );
 };
-
-export default Dialogs;
